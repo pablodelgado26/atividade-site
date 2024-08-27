@@ -229,3 +229,34 @@ section.especialidades .flex{
     box-shadow: 0 0 10px rgb(102, 101, 101);
     width: 100%;
 }
+
+.descricao-container {
+    width: 1000px; /* Defina a largura do quadrado */
+    height: 400px; /* Defina a altura do quadrado */
+    border: 2px solid #000; /* Adicione uma borda ao quadrado */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 50px auto;
+}
+
+
+.descricao {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 2px 2px 4px #99999969;
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
